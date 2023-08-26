@@ -1,18 +1,84 @@
-# Vue 3 + TypeScript + Vite
+# Application ViChess
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Bienvenue dans l'application **ViChess** ! Ce projet vise à mettre en pratique mes compétences en développement web, en particulier en utilisant Vue.js pour créer une application de jeu d'échecs. L'objectif principal de ce projet est de développer une application interactive qui permettra aux joueurs de jouer aux échecs en ligne.
 
-## Recommended IDE Setup
+## Outils Utilisés
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[![My Skills](https://skillicons.dev/icons?i=vue,tailwind,typescript,nodejs)](https://skillicons.dev)
 
-## Type Support For `.vue` Imports in TS
+mais aussi :
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- [Vue Router](https://router.vuejs.org/) - Bibliothèque pour gérer la navigation entre différentes vues dans une application Vue.js.
+- [Vuex](https://vuex.vuejs.org/) - Bibliothèque pour la gestion de l'état global dans une application Vue.js.
+- [react-spring](https://react-spring.io/) - Bibliothèque pour ajouter des animations fluides et dynamiques à l'interface utilisateur.
+- [Lichess API ](https://lichess.org/api) - Interface API pour interagir avec la plateforme Lichess pour le jeu d'échecs.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Fonctionnalités
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+<table>
+  <thead>
+    <tr>
+      <th>Fonctionnalité</th>
+      <th>État</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>//TODO</td>
+      <td>&#10004;</td>
+    </tr>
+    <tr>
+      <td>//TODO</td>
+      <td>&#8987;</td>
+    </tr>
+   
+  </tbody>
+</table>
+
+## Installation
+
+1. Clonez ce dépôt sur votre machine locale.
+   ```bash
+   git clone https://github.com/saoudi-h/vichess.git
+   ```
+2. Accédez au répertoire du projet :
+
+   ```bash
+   cd vichess
+   ```
+
+3. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+
+## Configuration de la Clé API
+
+Pour utiliser l'application, vous devrez obtenir une clé API valide auprès de Lichess.
+
+Obtenez une clé API en vous inscrivant sur Lichess API.
+Copiez le fichier .env.example et renommez-le en .env.
+Remplissez VUE_APP_LICHESS_API_KEY= avec votre clé API dans le fichier .env.
+
+## Démarrage de l'Application
+
+Une fois que vous avez configuré votre clé API, vous pouvez démarrer l'application en exécutant la commande suivante :
+
+```bash
+npm start
+```
+
+L'application sera accessible à l'adresse `http://localhost:3000`.
+
+## Contributions
+
+Les contributions sont les bienvenues ! Si vous souhaitez ajouter de nouvelles fonctionnalités, améliorer le code existant ou résoudre des problèmes, n'hésitez pas à ouvrir une demande de pull.
+
+## Licence
+
+Ce projet est sous licence [MIT](https://opensource.org/licenses/MIT).
+
+---
+
+![Développé par Hakim Saoudi dans le cadre de sa formation de concepteur développeur d'application.
+](https://raw.githubusercontent.com/saoudi-h/javaUtils/main/images/hakimsaoudi_javaUtils.png)
